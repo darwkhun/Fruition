@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_resolution_group_1" label="Resolution Group 1" language="en" table="x_159516_fruition_incident">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_resolution_group_1</element>
+            <help/>
+            <hint/>
+            <label>Resolution Group 1</label>
+            <language>en</language>
+            <name>x_159516_fruition_incident</name>
+            <plural>Resolution Group 1s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 00:14:13</sys_created_on>
+            <sys_id>3a6a57ba4f4d43006164b5e18110c7a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Resolution Group 1</sys_name>
+            <sys_package display_value="Fruition" source="x_159516_fruition">191113364f4d43006164b5e18110c72a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Fruition">191113364f4d43006164b5e18110c72a</sys_scope>
+            <sys_update_name>sys_documentation_x_159516_fruition_incident_u_resolution_group_1_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 00:14:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

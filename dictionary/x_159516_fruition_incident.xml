@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Incident" max_length="40" name="x_159516_fruition_incident" type="collection"/>
+    <element extends="task" label="Incident" max_length="40" name="x_159516_fruition_incident" type="collection">
+        <element label="Resolution Group 1" max_length="32" name="u_resolution_group_1" read_only="true" reference="sys_user_group" type="reference"/>
+    </element>
 </database>

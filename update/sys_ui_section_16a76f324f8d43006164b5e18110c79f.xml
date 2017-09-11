@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Resolution" section_id="16a76f324f8d43006164b5e18110c79f" sys_domain="global" table="x_159516_fruition_incident" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_resolution_group_1</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 01:13:12</sys_created_on>
+            <sys_id>0fe7ef324f8d43006164b5e18110c7ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution" display_value="Resolution" name="x_159516_fruition_incident" sys_domain="global" view="Default view">16a76f324f8d43006164b5e18110c79f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 01:13:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 01:13:12</sys_created_on>
+            <sys_id>8fe7ef324f8d43006164b5e18110c7ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution" display_value="Resolution" name="x_159516_fruition_incident" sys_domain="global" view="Default view">16a76f324f8d43006164b5e18110c79f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 01:13:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Resolution</caption>
+            <header>false</header>
+            <name>x_159516_fruition_incident</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 01:12:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>16a76f324f8d43006164b5e18110c79f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Resolution</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Fruition" source="x_159516_fruition">191113364f4d43006164b5e18110c72a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Fruition">191113364f4d43006164b5e18110c72a</sys_scope>
+            <sys_update_name>sys_ui_section_16a76f324f8d43006164b5e18110c79f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 01:12:04</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

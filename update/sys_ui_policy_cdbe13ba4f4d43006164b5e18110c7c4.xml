@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	g_form.setSectionDisplay('resolution',false);
+}]]></script_true>
+        <set_values/>
+        <short_description>Resolution section invisible</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-11 00:34:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cdbe13ba4f4d43006164b5e18110c7c4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Resolution section invisible</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Fruition" source="x_159516_fruition">191113364f4d43006164b5e18110c72a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fruition">191113364f4d43006164b5e18110c72a</sys_scope>
+        <sys_update_name>sys_ui_policy_cdbe13ba4f4d43006164b5e18110c7c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-11 01:17:26</sys_updated_on>
+        <table>x_159516_fruition_incident</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>
