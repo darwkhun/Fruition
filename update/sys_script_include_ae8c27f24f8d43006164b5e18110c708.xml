@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_159516_fruition.GetCIs</api_name>
+        <client_callable>true</client_callable>
+        <description>Returns the number of tasks with same CI class.</description>
+        <name>GetCIs</name>
+        <script><![CDATA[var GetCIs = Class.create();
+GetCIs.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getCIs: function() {
+		// get CI class from database
+		var gr = new GlideRecord('cmdb_ci');
+		gr.get(this.getParameter('sysparm_ci'));
+		var ciClass = gr.sys_class_name;
+		
+		// get count number of tasks with same CI class
+		var ga = new GlideAggregate('x_159516_fruition_incident');
+		ga.addQuery('cmdb_ci.sys_class_name',ciClass);
+		ga.addAggregate('COUNT');
+		ga.query();
+		
+		// process results into return value
+		var rtn = 0;
+		if (ga.next()) {
+			rtn = ga.getAggregate('COUNT');
+		}
+		return rtn;
+	},
+    type: 'GetCIs'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-11 01:42:39</sys_created_on>
+        <sys_id>ae8c27f24f8d43006164b5e18110c708</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>GetCIs</sys_name>
+        <sys_package display_value="Fruition" source="x_159516_fruition">191113364f4d43006164b5e18110c72a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Fruition">191113364f4d43006164b5e18110c72a</sys_scope>
+        <sys_update_name>sys_script_include_ae8c27f24f8d43006164b5e18110c708</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-11 01:44:51</sys_updated_on>
+    </sys_script_include>
+</record_update>
